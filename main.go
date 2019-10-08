@@ -21,7 +21,7 @@ const(
 )
 
 func parse(){
-  dir = flag.String("d", `O:\tmp`, "file path.")
+  dir = flag.String("d", `F:\GO\src\dome\templates`, "file path.")
   flag.Parse()
 }
 
