@@ -20,6 +20,7 @@ func Mdc(pwd string, wg *sync.WaitGroup)(){
     fmt.Printf("open excel error:%s", err.Error())
     return
   }
+
   // 获取新表格路径名称
   NewName := GetNewExcelName(pwd)
 

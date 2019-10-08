@@ -10,6 +10,7 @@ import (
 
 // 获取新表格名称
 func GetNewExcelName(pwd string)string{
+  //arr := strings.Split(pwd, `\`)
   return ""
 }
 

@@ -56,6 +56,10 @@ func runMdc(arr []os.FileInfo){
   wg.Wait()
 }
 
+func init(){
+
+}
+
 
 func main(){
   // parse input param
